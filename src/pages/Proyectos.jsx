@@ -33,7 +33,7 @@ function Proyectos() {
               <p className="text-sm  md:text-xl text-white text-center">Walorant Web Api</p>
               <p className="text-white text-sm">Es una pagina para obtener informacion de agentes,armas,skins y muchas cosas mas sobre el juego Valaront</p>
               <button className="border-2 text-white p-3 rounded-lg">
-                <a href="https://dashing-sorbet-06036a.netlify.app/agents" target="_blank">Ver Pagina</a>
+                <a href="https://valorantapp.netlify.app" target="_blank">Ver Pagina</a>
               </button>
             </div>
         </div>
@@ -43,7 +43,7 @@ function Proyectos() {
               <p className="text-sm  md:text-xl text-white text-center">Jardineria Web</p>
               <p className="text-white text-sm">Pagina oficial de una jardineria donde encontraras sus servicios y productos de jardineria</p>
               <button className="border-2 text-white p-3 rounded-lg">
-                <a href="https://dashing-sorbet-06036a.netlify.app/agents" target="_blank">Ver Pagina</a>
+                <a href="https://jardineriapp.netlify.app/" target="_blank">Ver Pagina</a>
               </button>
             </div>
         </div>
