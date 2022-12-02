@@ -10,7 +10,7 @@ function Contacto() {
   }
 
   return (
-    <div className="pt-0 lg:pt-32 ">
+    <div className="pt-0 lg:pt-44 min-h-screen ">
         <div className="flex flex-col lg:flex-row justify-center">
           <div>
             <img src={contact} className=" lg:block lg:w-[600px] object-cover lg:h-[720px] rounded-l-2xl px-0"/>

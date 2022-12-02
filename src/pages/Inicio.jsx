@@ -3,9 +3,9 @@ import fondo from '../assets/fondo17.jpg'
 
 function Inicio() {
   return (
-    <main className="z-40 w-full h-full">
-      <div className='relative pt-0 lg:pt-36'>
-        <img src={fondo} className="object-cover min-h-screen lg:min-h-0 lg:h-[695px] w-full"  />
+    <main className="z-40 w-full min-h-screen">
+      <div className='relative'>
+        <img src={fondo} className="object-cover min-h-screen w-full"  />
           <article className='absolute top-60 md:top-80'>
             <p className="text-white text-xl  md:text-6xl lg:text-7xl text-center">
               Soy Guillermo Alberco Capistrano,

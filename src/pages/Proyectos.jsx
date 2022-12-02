@@ -18,7 +18,7 @@ function Proyectos() {
   })
 
   return (
-    <section className="pb-20 lg:py-20 ">
+    <section className="pb-20 lg:py-20 min-h-screen ">
       <div className="relative py-8">
         <h2 className="text-white inset-0 top-20 text-2xl lg:text-5xl tracking-widest p-8 text-center absolute">Proyectos</h2>
         <img src={back} alt="" className="object-cover w-full h-[220px] lg:h-[220px]" />

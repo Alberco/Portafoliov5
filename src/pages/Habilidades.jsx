@@ -4,7 +4,7 @@ import { Link, Outlet } from 'react-router-dom';
 
 function Habilidades() {
   return (
-    <section className="pt-10 lg:pt-60 md:pt-20 px-10 lg:px-80 flex flex-col lg:flex-row items-center justify-around gap-6 md:gap-20 ">
+    <section className="px-10 lg:px-80 min-h-screen flex flex-col lg:flex-row items-center justify-center gap-6 md:gap-20 ">
       <nav>
         <ul className="flex flex-row lg:flex-col items-center gap-4 md:gap-20">
           <li className="group">

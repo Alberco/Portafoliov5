@@ -6,7 +6,7 @@ import { RiGithubFill,
 
 function FooterComponent() {
   return (
-    <footer className="bg-[#0f0b22] w-full fixed bottom-0 flex justify-center">
+    <footer className="bg-[#0f0b22] w-full flex justify-center">
         <div>
             <ul className="flex items-center justify-start h-full gap-6 w-full bg-[#0f0b22] py-4">
                     <li className="items-center gap-2 hidden lg:flex">
