@@ -1,7 +1,10 @@
 import React from 'react'
 import fondo from '../assets/fondo17.jpg'
+import pdf from '../assets/GuillermoAlbercoCapistranoCV.pdf'
 
 function Inicio() {
+
+
   return (
     <main className="z-40 w-full min-h-screen">
       <div className='relative'>
@@ -17,7 +20,9 @@ function Inicio() {
               <li>BD</li>
             </ul>
             <div className="flex justify-center text-md md:text-2xl">
-              <button className="p-3 border-2  text-white hover:bg-[#0f0b22] transition-all duration-400 rounded-md">Descargar CV</button>
+              <a href={pdf} download="GuillermoAlbercoCV">
+                <button className="p-3 border-2   text-white hover:bg-[#0f0b22] transition-all duration-400 rounded-md">Descargar CV</button>
+              </a>
             </div>
           </article>
       </div>
