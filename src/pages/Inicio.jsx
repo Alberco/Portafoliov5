@@ -5,7 +5,7 @@ function Inicio() {
   return (
     <main className="z-40 w-full min-h-screen">
       <div className='relative'>
-        <img src={fondo} className="object-cover min-h-screen w-full"  />
+        <img src={fondo} width={220} height={220} alt="sin imagen" className="object-cover min-h-screen w-full"  />
           <article className='absolute top-60 md:top-80'>
             <p className="text-white text-xl  md:text-6xl lg:text-7xl text-center">
               Soy Guillermo Alberco Capistrano,

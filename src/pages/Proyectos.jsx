@@ -21,14 +21,14 @@ function Proyectos() {
     <section className="pb-20 lg:py-20 min-h-screen ">
       <div className="relative py-8">
         <h2 className="text-white inset-0 top-20 text-2xl lg:text-5xl tracking-widest p-8 text-center absolute">Proyectos</h2>
-        <img src={back} alt="" className="object-cover w-full h-[220px] lg:h-[220px]" />
+        <img src={back} alt="sin imagen" width={220} height={220} className="object-cover w-full h-[220px] lg:h-[220px]" />
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 py-5 px-4 md:px-10 lg:px-28 gap-3">
         <h3 className="text-white text-xl  col-span-1 lg:col-span-2 flex items-center gap-1">
           - Favoritos
         </h3>
         <div className="p-8 bg-[#0f0b22] w-full rounded-xl flex flex-col lg:flex-row justify-between items-center gap-1">
-          <img src={Proyecto1} className="object-cover w-full h-[220px]"/>
+          <img src={Proyecto1}  alt="sin imagen"  width={220} height={220} className="object-cover w-full h-[220px]"/>
             <div className="flex flex-col items-center gap-2">
               <p className="text-sm  md:text-xl text-white text-center">Walorant Web Api</p>
               <p className="text-white text-sm">Es una pagina para obtener informacion de agentes,armas,skins y muchas cosas mas sobre el juego Valaront</p>
@@ -38,7 +38,7 @@ function Proyectos() {
             </div>
         </div>
         <div className="p-8 bg-[#0f0b22] w-full rounded-xl flex flex-col lg:flex-row justify-between items-center gap-2">
-          <img src={Proyecto2} className="object-cover w-full h-[220px]"/>
+          <img src={Proyecto2}  width={220} height={220}  alt="sin imagen" className="object-cover w-full h-[220px]"/>
             <div className="flex flex-col items-center gap-2">
               <p className="text-sm  md:text-xl text-white text-center">Jardineria Web</p>
               <p className="text-white text-sm">Pagina oficial de una jardineria donde encontraras sus servicios y productos de jardineria</p>

@@ -13,7 +13,7 @@ function Contacto() {
     <div className="pt-0 lg:pt-44 min-h-screen ">
         <div className="flex flex-col lg:flex-row justify-center">
           <div>
-            <img src={contact} className=" lg:block lg:w-[600px] object-cover lg:h-[720px] rounded-l-2xl px-0"/>
+            <img src={contact}   width={220} height={220} alt="sin imagen" className=" lg:block lg:w-[600px] object-cover lg:h-[720px] rounded-l-2xl px-0"/>
           </div>
 
             <form className="flex flex-col lg:bg-[#0f0b22]  items-center gap-10 lg:border-r-2 lg:border-t-2 lg:border-b-2 border-gray-800 lg:rounded-r-2xl px-10 lg:px-40 pt-10 pb-32 lg:py-32" onSubmit={submitForm}>
